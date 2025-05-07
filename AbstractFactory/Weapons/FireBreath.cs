@@ -1,6 +1,9 @@
 namespace AbstractFactory.Weapons;
 
-public class FireBreath
+public class FireBreath : IWeapon
 {
-    
+    public void Attack()
+    {
+        Console.WriteLine("Дышим огнем");
+    }
 }

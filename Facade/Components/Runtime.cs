@@ -1,0 +1,14 @@
+namespace Facade.Components;
+
+public class Runtime
+{
+    public void Execute()
+    {
+        Console.WriteLine("Выполнение приложения");
+    }
+
+    public void Finish()
+    {
+        Console.WriteLine("Завершение работы приложения");
+    }
+}

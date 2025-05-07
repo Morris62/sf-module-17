@@ -1,6 +1,9 @@
 namespace FactoryMethod;
 
-public class EmailMessage
+public class EmailMessage : Message
 {
-    
+    public EmailMessage()
+    {
+        Console.WriteLine("email отправлен");
+    }
 }
